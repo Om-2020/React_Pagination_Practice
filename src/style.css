@@ -1,0 +1,40 @@
+.Products {
+    
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.single__product{
+    margin: 10px;
+    text-align: center;
+
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+    border-width: 5cm;
+    cursor: pointer;
+}
+
+.pagination {
+    padding: 10px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination > span{
+    padding: 15px 20px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.pagination_selected {
+    background-color: red;
+}
+
+.pagination_disable{
+    opacity: 0;
+}
